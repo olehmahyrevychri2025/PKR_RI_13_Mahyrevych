@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Підтримка</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1a2f;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      gap: 30px;
+      padding: 20px 40px;
+      font-size: 14px;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    nav a.active {
+      color: #00e0ff;
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+    }
+
+    .logo {
+      width: 220px;
+      margin-bottom: 40px;
+      filter: drop-shadow(0 0 20px rgba(120, 0, 255, 0.6));
+    }
+
+    .input-box {
+      width: 400px;
+      max-width: 90%;
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#">Наші особливості</a>
+  <a href="#">Про нас</a>
+  <a href="#">Розцінки</a>
+  <a href="#" class="active">Підтримка</a>
+</nav>
+
+<div class="center">
+  <img src="logo.webp" alt="bot" class="logo">
+
+  <div class="input-box">
+    <input type="text" placeholder="повідомлення">
+  </div>
+</div>
+
+</body>
+</html>
